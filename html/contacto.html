@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/33ce6d66e5.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="/marca/contenido/logogood.png">
+</head>
+<body>
+    <header>
+        <a href="./index.html">
+            <img id="logo" src="/marca/contenido/logogood.png" alt="Logo de GoodFood" />
+        </a>
+        <nav>
+            <li><a href="/html/index.html">Inicio</a></li>
+            <li><a href="/html/nosotros.html">Nosotros</a></li>
+            <li><a href="/html/servicios.html">Servivios</a></li>
+            <li><a href="/html/planes.html">Planes</a></li>
+            <li><a href="/html/contacto.html">Contacto</a></li>
+        </nav>
+    </header>
+    <main>
+        <div>
+            <div>
+                <h2 style="text-align: left">Ubicación</h2>
+                <iframe
+                    src="https://maps.google.com/maps?q=La%20Bodega%20de%20la%20Trattoria%20-%20Armendariz&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                    allowfullscreen=""
+                    loading="lazy"
+                ></iframe>
+            </div>
+            <form action="">
+                <h2>Contactenos</h2>
+                <!-- Name -->
+                <label for="name"></label>
+                <input
+                    type="text"
+                    required
+                    id="name"
+                    placeholder="Nombre completo:*"
+                />
+                <label for="email"></label>
+                <input 
+                    type="email"
+                    id="email"
+                    required
+                    placeholder="Correo electronico:*"
+                />
+                <label for="tel"></label>
+                <input
+                    type="tel"
+                    id="tel"
+                    required
+                    placeholder="Teléfono celular:*"
+                />
+                <legend>Sexo:</legend>
+                <select name="sex" id="sex">
+                    <option value="placeholder" disabled selected>Elija una opción</option>
+                    <option value="Mujer">Mujer</option>
+                    <option value="Hombre">Hombre</option>
+                    <option value="None">Prefiero no decirlo</option>
+                </select>
+                
+                <label>Nuevo cliente:</label>
+                <input  type="checkbox" name="new clients" id="newclient" />
+                <textarea
+                    placeholder="Comentarios:"
+                    name="comments"
+                    id="comment"
+                    cols="25"
+                    rows="3"
+                ></textarea>
+                <input value="Enviar" class="formButton" type="submit" />
+                <input value="Restablecer" class="formButton" type="reset" />
+            </form>
+        </div>
+    </main>
+    <hr>
+</body>
+<footer>
+    <!-- Nav menu -->
+    <nav>
+        <ul>
+            <li><a href="/html/index.html">Inicio</a></li>
+            <li><a href="/html/nosotros.html">Nosotros</a></li>
+            <li><a href="/html/servicios.html">Servivios</a></li>
+            <li><a href="/html/planes.html">Planes</a></li>
+            <li><a href="/html/contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+    <div>
+        <li>Días y Horarios de Atención</li>
+        <li>Lun. a Vie.: 09 a 18 hs.</li>
+        <li>Sábados: 08 a 13 hs.</li>
+        <div>
+            <a
+                target="blank"
+                title="Instagram"
+                href="https://www.instagram.com"
+            >
+                <span
+                    title="Instagram"
+                    class="iconify"
+                    data-icon="akar-icons:instagram-fill"
+                    data-inline="false"
+                >
+                </span>
+            </a>
+            <a
+                target="blank"
+                href="https://www.google.com.pe"
+            >
+                <span
+                    title="Ubicación"
+                    class="iconify"
+                    data-icon="carbon:location-filled"
+                    data-inline="false"
+                >
+                </span>
+            </a>
+        </div>
+    </div>
+   
+    <div>
+        <li>Telef: 895-158-7890</li>
+        <li>Miraflores 1086</li>
+        <li>Lima, Miraflores</li>
+        <li>Peru</li>
+    </div>
+    <div >
+        <p>Copyright© 2021</p>
+    </div>
+</footer>
+</html>
