@@ -6,102 +6,107 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina de GoodFood</title>
-    
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
-    <link href='https://unpkg.com/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="/marca/contenido/logogood.png">
+    <link rel="stylesheet" href="/css/style.css">
+    <!--AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
+
 
 <body>
     <header>
         <a href="./index.html">
             <img id="logo" src="/marca/contenido/logogood.png" alt="Logo de GoodFood" />
         </a>
-        <nav>
-            <li><a href="/html/index.html">Inicio</a></li>
-            <li><a href="/html/nosotros.html">Nosotros</a></li>
-            <li><a href="/html/servicios.html">Servivios</a></li>
-            <li><a href="/html/planes.html">Planes</a></li>
-            <li><a href="/html/contacto.html">Contacto</a></li>
+        <nav class="navbar-container">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"></a>
+                <div class="navbar-menu" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
+                        <li class="nav-item"><a class="nav-link" href="servicios.html">Servivios</a></li>
+                        <li class="nav-item"><a class="nav-link" href="planes.html">Planes</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
-    <hr>
     <main>
-        <section>
-            <img src="/marca/contenido/background.png" alt="image for cover">
+         <!-- Primer seccion -->
+        <section class="background-sec">
+           <div class="main-title">
             <h1>Tu decides donde comer</h1>
-
+            <p>
+                <em>
+                    Los mejores huariques cerca de ti
+                </em>
+            </p>
+            <button class="button-contact">Ingresar ahora</button>
+           </div>
         </section>
         <hr>
-        <p>Nuestra experiencia</p>
+        <!--Partners Section-->
         <section>
-            <div>
-                <img src="" alt="">
-                <div>
-                    <h2>Food</h2>
-                    <p>Come join us for breakfast with one of our delicious menus</p>
-                </div>
-            </div>
-            <div>
-                <img src="" alt="">
-                <div>
-                    <p>Photos</p>
-                    <p>Take beautiful pictures with the best guidance possible</p>
-                </div>
-            </div>
-            <div>
-                <img src="" alt="">
-                <div>
-                    <p>Socialize</p>
-                    <p>Meet people and chat about your passion</p>
-                </div>
-            </div>
-            <div>
-                <img src="" alt="">
-                <div>
-                    <p>Relax</p>
-                    <p>it's just impossible not to relax with the beautiful landscape</p>
-                </div>
+            <h2 id="title">Partners</h2>
+            <div class="partner-section" >
+                <img src="/img/mozilla.png" alt=firefox class="partner-item">
+                <img src="/img/google.png" alt=firefox class="partner-item">
+                <img src="/img/naver.png" alt=firefox class="partner-item">
+                <img src="/img/airbnb.png" alt=firefox class="partner-item">
+                <img src="/img/daumkakao.png" alt=firefox class="partner-item">
             </div>
         </section>
+        <!--Cards Section-->
+       <section class="container">
+        <h2 class="title">Reseñas</h2>
+        <div class="cards">
+            <div class="card">
+                <img src="../img/face1.jpg" alt="">
+                <div class="contenido-texto-card">
+                    <h4>Name</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, sapiente!</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="../img/face2.jpg" alt="">
+                <div class="contenido-texto-card">
+                    <h4>Name</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, sapiente!</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="../img/face1.jpg" alt="">
+                <div class="contenido-texto-card">
+                    <h4>Name</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, sapiente!</p>
+                </div>
+            </div>
+        </div>
+
+       </section>
     </main>
 </body>
 <footer>
-    <!-- Nav menu -->
-    <nav>
-        <ul>
-            <li><a href="/html/index.html">Inicio</a></li>
-            <li><a href="/html/nosotros.html">Nosotros</a></li>
-            <li><a href="/html/servicios.html">Servivios</a></li>
-            <li><a href="/html/planes.html">Planes</a></li>
-            <li><a href="/html/contacto.html">Contacto</a></li>
-        </ul>
-    </nav>
-    <div>
-        <li>Días y Horarios de Atención</li>
-        <li>Lun. a Vie.: 09 a 18 hs.</li>
-        <li>Sábados: 08 a 13 hs.</li>
-        <div>
-            <a target="blank" title="Instagram" href="https://www.instagram.com">
-                <span title="Instagram" class="iconify" data-icon="akar-icons:instagram-fill" data-inline="false">
-                </span>
-            </a>
-            <a target="blank" href="https://www.google.com.pe">
-                <span title="Ubicación" class="iconify" data-icon="carbon:location-filled" data-inline="false">
-                </span>
-            </a>
+    <div class="container-footer">
+        <div class="content-foo">
+            <h4>Phone</h4>
+            <p>895-158-7890</p>
+        </div>
+        <div class="content-foo">
+            <h4>Email</h4>
+            <p>wmav</p>
+        </div>
+        <div class="content-foo">
+            <h4>Location</h4>
+            <p>Lima, Miraflores</p>
         </div>
     </div>
-
-    <div>
-        <li>Telef: 895-158-7890</li>
-        <li>Miraflores 1086</li>
-        <li>Lima, Miraflores</li>
-        <li>Peru</li>
-    </div>
-    <div>
-        <p>Copyright© 2021</p>
-    </div>
+    <h2 class="title-final">Copyright© 2021</h2>
 </footer>
 
 </html>

@@ -5,22 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="https://kit.fontawesome.com/33ce6d66e5.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
-    <link href='https://unpkg.com/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="/marca/contenido/logogood.png">
+    <link rel ="stylesheet" href="/css/style.css">
 </head>
 <body>
     <header>
         <a href="./index.html">
-            <img id="logo" src="/marca/contenido/logogood.png" alt="Logo de GoodFood" />
+            <img id="logo" src="../marca/contenido/logogood.png" alt="Logo de GoodFood" />
         </a>
         <nav>
-            <li><a href="/html/index.html">Inicio</a></li>
-            <li><a href="/html/nosotros.html">Nosotros</a></li>
-            <li><a href="/html/servicios.html">Servivios</a></li>
-            <li><a href="/html/planes.html">Planes</a></li>
-            <li><a href="/html/contacto.html">Contacto</a></li>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="servicios.html">Servivios</a></li>
+                <li><a href="planes.html">Planes</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
         </nav>
     </header>
     <main>
@@ -36,21 +39,21 @@
             <form action="">
                 <h2>Contactenos</h2>
                 <!-- Name -->
-                <label for="name"></label>
+                <label for="name">Nombre</label>
                 <input
                     type="text"
                     required
                     id="name"
                     placeholder="Nombre completo:*"
                 />
-                <label for="email"></label>
+                <label for="email">Email</label>
                 <input 
                     type="email"
                     id="email"
                     required
                     placeholder="Correo electronico:*"
                 />
-                <label for="tel"></label>
+                <label for="tel">Telefono</label>
                 <input
                     type="tel"
                     id="tel"
@@ -82,57 +85,20 @@
     <hr>
 </body>
 <footer>
-    <!-- Nav menu -->
-    <nav>
-        <ul>
-            <li><a href="/html/index.html">Inicio</a></li>
-            <li><a href="/html/nosotros.html">Nosotros</a></li>
-            <li><a href="/html/servicios.html">Servivios</a></li>
-            <li><a href="/html/planes.html">Planes</a></li>
-            <li><a href="/html/contacto.html">Contacto</a></li>
-        </ul>
-    </nav>
-    <div>
-        <li>Días y Horarios de Atención</li>
-        <li>Lun. a Vie.: 09 a 18 hs.</li>
-        <li>Sábados: 08 a 13 hs.</li>
-        <div>
-            <a
-                target="blank"
-                title="Instagram"
-                href="https://www.instagram.com"
-            >
-                <span
-                    title="Instagram"
-                    class="iconify"
-                    data-icon="akar-icons:instagram-fill"
-                    data-inline="false"
-                >
-                </span>
-            </a>
-            <a
-                target="blank"
-                href="https://www.google.com.pe"
-            >
-                <span
-                    title="Ubicación"
-                    class="iconify"
-                    data-icon="carbon:location-filled"
-                    data-inline="false"
-                >
-                </span>
-            </a>
+    <div class="container-footer">
+        <div class="content-foo">
+            <h4>Phone</h4>
+            <p>895-158-7890</p>
+        </div>
+        <div class="content-foo">
+            <h4>Email</h4>
+            <p>wmav</p>
+        </div>
+        <div class="content-foo">
+            <h4>Location</h4>
+            <p>Lima, Miraflores</p>
         </div>
     </div>
-   
-    <div>
-        <li>Telef: 895-158-7890</li>
-        <li>Miraflores 1086</li>
-        <li>Lima, Miraflores</li>
-        <li>Peru</li>
-    </div>
-    <div >
-        <p>Copyright© 2021</p>
-    </div>
+    <h2 class="title-final">Copyright© 2021</h2>
 </footer>
 </html>
