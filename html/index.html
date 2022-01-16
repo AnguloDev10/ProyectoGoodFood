@@ -8,7 +8,7 @@
     <title>Pagina de GoodFood</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="/marca/contenido/logogood.png">
     <link rel="stylesheet" href="/css/style.css">
     <!--AOS-->
@@ -18,42 +18,38 @@
 
 <body>
     <header>
-        <a href="./index.html">
-            <img id="logo" src="/marca/contenido/logogood.png" alt="Logo de GoodFood" />
-        </a>
-        <nav class="navbar-container">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#"></a>
-                <div class="navbar-menu" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
-                        <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
-                        <li class="nav-item"><a class="nav-link" href="servicios.html">Servivios</a></li>
-                        <li class="nav-item"><a class="nav-link" href="planes.html">Planes</a></li>
-                        <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
-                    </ul>
-                </div>
-            </div>
+        <nav class="menu">
+            <a href="./index.html">
+                <img id="logo" src="/marca/contenido/logogood.png" alt="Logo de GoodFood" />
+            </a>
+            <ul class="navbar-items">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="servicios.html">Servivios</a></li>
+                <li><a href="planes.html">Planes</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
         </nav>
     </header>
+
     <main>
-         <!-- Primer seccion -->
+        <!-- Primer seccion -->
         <section class="background-sec">
-           <div class="main-title">
-            <h1>Tu decides donde comer</h1>
-            <p>
-                <em>
-                    Los mejores huariques cerca de ti
-                </em>
-            </p>
-            <button class="button-contact">Ingresar ahora</button>
-           </div>
+            <div class="main-title">
+                <h1>Tu decides donde comer</h1>
+                <p>
+                    <em>
+                        Los mejores huariques cerca de ti
+                    </em>
+                </p>
+                <button class="button-contact">Ingresar ahora</button>
+            </div>
         </section>
         <hr>
         <!--Partners Section-->
         <section>
             <h2 id="title">Partners</h2>
-            <div class="partner-section" >
+            <div class="partner-section">
                 <img src="/img/mozilla.png" alt=firefox class="partner-item">
                 <img src="/img/google.png" alt=firefox class="partner-item">
                 <img src="/img/naver.png" alt=firefox class="partner-item">
@@ -62,33 +58,31 @@
             </div>
         </section>
         <!--Cards Section-->
-       <section class="container">
-        <h2 class="title">Reseñas</h2>
-        <div class="cards">
-            <div class="card">
-                <img src="../img/face1.jpg" alt="">
-                <div class="contenido-texto-card">
-                    <h4>Name</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, sapiente!</p>
+        <section class="fedback">
+            <div class="box-area">
+                <div class="single-box">
+                    <div class="img-area"></div>
+                    <div class="img-text">
+                        <span class="header-text"><strong>Usuario 1</strong></span>
+                        <p>Lorem ipsu Lorem ipsuLorem ipsuLorem ipsuLorem ipsu</p>
+                    </div>
+                </div>
+                <div class="single-box">
+                    <div class="img-area"></div>
+                    <div class="img-text">
+                        <span class="header-text"><strong>Usuario 1</strong></span>
+                        <p>Lorem ipsu Lorem ipsuLorem ipsuLorem ipsuLorem ipsu</p>
+                    </div>
+                </div>
+                <div class="single-box">
+                    <div class="img-area"></div>
+                    <div class="img-text">
+                        <span class="header-text"><strong>Usuario 1</strong></span>
+                        <p>Lorem ipsu Lorem ipsuLorem ipsuLorem ipsuLorem ipsu</p>
+                    </div>
                 </div>
             </div>
-            <div class="card">
-                <img src="../img/face2.jpg" alt="">
-                <div class="contenido-texto-card">
-                    <h4>Name</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, sapiente!</p>
-                </div>
-            </div>
-            <div class="card">
-                <img src="../img/face1.jpg" alt="">
-                <div class="contenido-texto-card">
-                    <h4>Name</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, sapiente!</p>
-                </div>
-            </div>
-        </div>
-
-       </section>
+        </section>
     </main>
 </body>
 <footer>
